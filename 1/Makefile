@@ -1,5 +1,6 @@
 main: main.o solver.o
-	g++ solver.o main.o -o main
+	g++ solver.o main.o -o main \
+	&& ./main
 
 main.o: main.cpp
 	g++ -c main.cpp -o main.o
