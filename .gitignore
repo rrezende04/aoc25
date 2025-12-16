@@ -1,0 +1,7 @@
+*.h
+*.o
+*.hex
+
+# Puzzle inputs are not tracked but save as input.in 
+# done to differentiate from test inputs (.txt)
+*.in
